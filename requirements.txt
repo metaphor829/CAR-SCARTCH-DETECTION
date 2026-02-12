@@ -1,0 +1,15 @@
+﻿# Core ML/Inference
+ultralytics
+# CUDA-enabled PyTorch should be installed with the correct extra index for your GPU.
+# If you already have torch/cuXXX installed, you can keep these lines as-is.
+torch
+torchvision
+torchaudio
+
+# Web UI
+streamlit
+
+# Imaging
+opencv-python
+pillow
+numpy
