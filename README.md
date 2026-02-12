@@ -1,4 +1,4 @@
-﻿自動車損傷検出自動化システム (Car Scratch Detection)
+﻿# 自動車損傷検出自動化システム (CAR SCRATCH DETECTION)
 
 本プロジェクトは YOLO26 をベースに、YOLO 形式データセットで学習した「自動車損傷検出」モデルです。
 Streamlit で `app.py` を起動して Web UI で利用できるほか、`train_yolo26.py` を使って `dataset/` に自分のデータを追加し再学習することも可能です。
@@ -80,3 +80,4 @@ yolo predict model=best.pt source=dataset/images/test conf=0.25 save=True projec
 
 - すべてのスクリプトは Python 3.10 標準ライブラリのみを直接利用しています（外部実行は `yolo` CLI）。
 - `yolo` コマンド名が異なる場合は `--yolo-cmd` で指定してください。
+
