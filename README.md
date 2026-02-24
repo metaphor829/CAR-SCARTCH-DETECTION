@@ -5,7 +5,7 @@ Streamlit で `app.py` を起動して Web UI で利用できるほか、`train_
 現時点では自動車外観の傷（スクラッチ）検出が主用途ですが、将来的には「車体や部品の損傷チェック」「リース車両や自動車の状態評価」「事故車の損傷調査」などにも応用可能です。
 
 <p align="center">
-  <img src="assets/predict_demo.jpg" alt="Predict Demo" width="400">
+  <img src="assets/GUI_demo.png" alt="GUI Demo" width="400">
 </p>
 
 <p align="center">
@@ -46,10 +46,6 @@ streamlit run app.py
   - 右: 検出後の画像（バウンディングボックス描画）
   - 検出数と信頼度をテーブル表示
   - 検出がない場合はメッセージ表示
-
-<p align="center">
-  <img src="assets/GUI_demo.png" alt="GUI Demo" width="900">
-</p>
 
 ## 訓練使用順序
 
